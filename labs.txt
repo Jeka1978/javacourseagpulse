@@ -1,0 +1,6 @@
+lab 1
+Declare array of doubles and fill it
+Declare array of ints
+All round numbers must be copied to array if ints
+
+

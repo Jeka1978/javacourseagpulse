@@ -1,4 +1,10 @@
 
+
+alt+enter - talk to me intelij
+alt cntrl + v = extract variable
+
+f2 - move coursor first compile error
+
 cntrl + w - mark work or block
 alt + j - mark
 
@@ -8,3 +14,19 @@ cntrl + shift + /
 
 
 alt+cntrl+l format code
+
+shift F10 - run last main
+shift F9 - run in debug
+
+
+Cntrl + F8 – break point
+F9 – next break point
+F8 – step forward
+F7 –  step into Shift F8 – back
+Alt F8 – evaluate expression
+
+
+
+
+
+
