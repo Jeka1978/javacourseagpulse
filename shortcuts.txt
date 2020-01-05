@@ -1,0 +1,10 @@
+
+cntrl + w - mark work or block
+alt + j - mark
+
+comments
+cntrl + /
+cntrl + shift + /
+
+
+alt+cntrl+l format code
