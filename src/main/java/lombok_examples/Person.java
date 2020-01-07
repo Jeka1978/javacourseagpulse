@@ -1,24 +1,38 @@
 package lombok_examples;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
+
+import java.io.Serializable;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author Evgeny Borisov
  */
 
-@AllArgsConstructor
+@AllArgsConstructor(access = AccessLevel.PRIVATE)
 @NoArgsConstructor
 @Data
-public class Person {
+@Builder
+public class Person implements Serializable {
 
-    @Getter
+
+
     private String name;
-    private int age;
+    private transient int age;
+    private double tax;
     private int salary;
-    private int bonus;
+    @Singular
+    private Map<String, Integer> beers;
 
+    @Singular("דג")
+    private List<String> fish;
+
+    @NonNull
+    private Integer bonus;
 
 }
+
+
+
+

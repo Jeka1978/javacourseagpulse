@@ -2,6 +2,7 @@
 
 alt+enter - talk to me intelij
 alt cntrl + v = extract variable
+alt cnrt + n = visa versa (inline)
 
 f2 - move coursor first compile error
 
