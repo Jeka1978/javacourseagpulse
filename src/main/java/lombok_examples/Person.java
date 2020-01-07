@@ -1,6 +1,7 @@
 package lombok_examples;
 
 import lombok.*;
+import lombok.experimental.Wither;
 
 import java.io.Serializable;
 import java.util.List;
@@ -14,6 +15,7 @@ import java.util.Map;
 @NoArgsConstructor
 @Data
 @Builder
+@Wither
 public class Person implements Serializable {
 
 
