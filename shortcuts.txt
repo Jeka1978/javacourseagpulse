@@ -8,6 +8,7 @@ f2 - move coursor first compile error
 
 cntrl + w - mark work or block
 alt + j - mark
+shift + F6 - rename with refactor
 
 comments
 cntrl + /
