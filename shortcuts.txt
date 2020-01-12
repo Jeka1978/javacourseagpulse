@@ -1,14 +1,26 @@
 
 
+
+cntl + N - find class
+cntl + shift + N - find file
+alt+ctrl+shift + N - find symbol
+
+
 alt+enter - talk to me intelij
-alt cntrl + v = extract variable
-alt cnrt + n = visa versa (inline)
+alt ctrl + v = extract variable
+alt ctrl + n = visa versa (inline)
 
 f2 - move coursor first compile error
 
 cntrl + w - mark work or block
 alt + j - mark
 shift + F6 - rename with refactor
+
+cntr+e - recent files
+
+cntrl + b = enter inside
+
+alt+cntrl+F7 - find usages
 
 comments
 cntrl + /

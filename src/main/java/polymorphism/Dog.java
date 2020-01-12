@@ -1,5 +1,6 @@
 package polymorphism;
 
+import enums.MaritalStatus;
 import lombok.NonNull;
 
 /**
@@ -10,6 +11,7 @@ public class Dog implements Animal {
 
     public void bringStick() {
         System.out.println("Take it by yourself");
+
     }
 
     @Override

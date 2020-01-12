@@ -1,2 +1,5 @@
+https://howtodoinjava.com/java/generics/java-generics-what-is-pecs-producer-extends-consumer-super/   -
+generic advanced
+
 
 https://openjdk.java.net/projects/code-tools/jmh/ - benchmark framework which works (Alexey Shipelev)
