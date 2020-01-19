@@ -33,6 +33,12 @@ public class Person implements Serializable {
     @NonNull
     private Integer bonus;
 
+    public void printName() {
+        System.out.println(name);
+    }
+
+
+
 }
 
 
