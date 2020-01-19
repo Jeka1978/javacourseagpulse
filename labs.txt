@@ -1,6 +1,10 @@
 lab 1
-Declare array of doubles and fill it
-Declare array of ints
-All round numbers must be copied to array if ints
+count words in song yesterday
+find most popular word in song yesterday (you will never guess)
 
 
+define enum seniority (JUNIOR(0,10), MIDDLE(11,20), SENIOR(21,Long.MAX_VALUE))
+write method in DeveloperUtil which will receive list of Developers and will return
+Map<Seniority,Long> - seniority against number of developers with that seniority
+* do not touch class Developer
+* do not use any if in your code.

@@ -1,5 +1,6 @@
 
 
+cntl+shift+enter - close line
 
 cntl + N - find class
 cntl + shift + N - find file
