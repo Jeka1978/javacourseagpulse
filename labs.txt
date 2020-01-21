@@ -1,3 +1,17 @@
+lab2
+everytime when method clean is working you need to print to console how many time it took
+prohibitted change any existing classes
+allowed:
+1. Add new Classes
+2. Change JavaConfig file
+
+In order to check you have succeeded, just run the main method from Main class in my_spring package
+
+
+
+
+
+
 lab 1
 count words in song yesterday
 find most popular word in song yesterday (you will never guess)

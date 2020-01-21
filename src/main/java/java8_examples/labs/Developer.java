@@ -13,6 +13,7 @@ import java.util.List;
 @NoArgsConstructor
 public class Developer {
     private int salary;
+    private String name;
 
     @Singular
     private List<Beer> beers;

@@ -4,12 +4,14 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.List;
-import java.util.stream.Stream;
+import java.util.Map;
 
 /**
  * @author Evgeny Borisov
  */
 public class EmployeeUtilsTest {
+
+
 
     @Test
     public void totalPriceForAllBeer() {
@@ -30,16 +32,35 @@ public class EmployeeUtilsTest {
 
     }
 
+
+    @Test
+    public void testGroupBySeniority() {
+
+        List<Developer> developers = List.of(
+                Developer.builder().name("Jeka").salary(9).build(),
+                Developer.builder().name("Moshe").salary(7).build(),
+                Developer.builder().name("Haim").salary(3).build(),
+                Developer.builder().name("Natali").salary(90).build(),
+                Developer.builder().name("Paz").salary(24).build(),
+                Developer.builder().name("Oren").salary(17).build()
+        );
+
+       Map<Seniority,Long> map =  DeveloperUtils.groupBySeniority(developers);
+        Assert.assertEquals(3, (long) map.get(Seniority.JUNIOR));
+        Assert.assertEquals(1, (long) map.get(Seniority.MIDDLE));
+        Assert.assertEquals(2, (long) map.get(Seniority.SENIOR));
+    }
+
     @Test
     public void totalSalary() {
 
         List<Developer> list = List.of(
-                Developer.builder().salary(100).build(),
-                Developer.builder().salary(200).build(),
-                Developer.builder().salary(300).build());
+                Developer.builder().salary(10).build(),
+                Developer.builder().salary(20).build(),
+                Developer.builder().salary(30).build());
 
         int total = DeveloperUtils.totalSalary(list);
-        Assert.assertEquals(600, total);
+        Assert.assertEquals(60, total);
 
     }
 }
