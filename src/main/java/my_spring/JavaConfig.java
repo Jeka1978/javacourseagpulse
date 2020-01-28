@@ -14,6 +14,7 @@ public class JavaConfig implements Config {
     public JavaConfig() {
         ifc2Class.put(Speaker.class,ConsoleSpeaker.class);
         ifc2Class.put(Cleaner.class,CleanerImpl.class);
+        ifc2Class.put(AgPulseService.class,AgPulseServiceImpl.class);
     }
 
     @Override
