@@ -46,7 +46,7 @@ public class ObjectFactory {
     @SneakyThrows
     public <T> T createObject(Class<T> type) {
 
-        type = resolveImpl(type);
+        type = resolveImpl(type);  // bean definition
 
         T t = create(type);
 

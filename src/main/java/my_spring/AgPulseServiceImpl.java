@@ -4,10 +4,14 @@ package my_spring;
  * @author Evgeny Borisov
  */
 
+
 public class AgPulseServiceImpl implements AgPulseService {
+
+
     @Override
     public void work() {
         System.out.println("working....");
+        this.drinkBeer();
     }
 
     @Override
